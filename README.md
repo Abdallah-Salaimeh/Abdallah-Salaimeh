@@ -52,6 +52,19 @@ A project exploring neural approaches to generating concise summaries of Arabic 
 
 **Technologies:** Python, PyTorch, Hugging Face Transformers
 
+### OptMaster-Lite
+*LLM Agents · Optimization · Multi-Agent Systems*
+
+A lightweight implementation inspired by *OptMaster: A DAG-Based Framework for Formulation and Heuristic Discovery in Optimization*. The project explores how LLM agents can generate, execute, verify, and iteratively improve optimization solutions through a directed acyclic graph (DAG) search process.
+
+- Implement a DAG-based search engine for tracking candidate optimization approaches.
+- Use specialized LLM agents for planning, solver-code generation, repair, independent verification, scoring, and summarization.
+- Execute generated solver code using Docker-based isolation.
+- Apply static code checks and independent solution verification.
+- Explore adaptive parent selection and stagnation-aware search expansion.
+
+**Technologies:** Python, Gemini API, IBM DOcplex/CPLEX, Docker, NetworkX, pytest
+
 ## Areas of Interest
 
 - Machine learning and predictive modeling
